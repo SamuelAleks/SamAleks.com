@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" href="icon-d_7.png" type="image/x-icon" />
+		<title>Sam Aleks' Website</title>
+		<link
+			href="bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		<script src="bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/content-styles.css" />
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+				<div class="container center-container">
+					<div id="white-bar" class="navbar-white-bar"></div>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNav"
+						aria-controls="navbarNav"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a
+									class="nav-link"
+									href="about.html"
+									onmouseover="expandWhiteBar(this)"
+									onmouseout="resetWhiteBar()"
+									>About Me</a
+								>
+							</li>
+							<li class="nav-item active">
+								<a
+									class="nav-link active"
+									href="cv.html"
+									onmouseover="expandWhiteBar(this)"
+									onmouseout="resetWhiteBar()"
+									>Languages</a
+								>
+							</li>
+							<li class="nav-item">
+								<a
+									class="nav-link"
+									href="portfolio.html"
+									onmouseover="expandWhiteBar(this)"
+									onmouseout="resetWhiteBar()"
+									>Projects</a
+								>
+							</li>
+							<li class="nav-item">
+								<a
+									class="nav-link"
+									href="projects.html"
+									onmouseover="expandWhiteBar(this)"
+									onmouseout="resetWhiteBar()"
+									>Work History</a
+								>
+							</li>
+							<li class="nav-item">
+								<a
+									class="nav-link"
+									href="projects.html"
+									onmouseover="expandWhiteBar(this)"
+									onmouseout="resetWhiteBar()"
+									>Github</a
+								>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<script src="js/white-bar.js"></script>
+			<script src="js/header-visibility.js"></script>
+			<script src="js/scripts.js"></script>
+			<div id="text-content">
+				<section id="top-of-the-page"></section>
+				<section id="introduction">
+					<p></p>
+				</section>
+				<section id="early-life">
+					<p></p>
+				</section>
+				<section id="education">
+					<p></p>
+				</section>
+				<section id="extra-curriculars">
+					<p></p>
+				</section>
+				<div class="divider"></div>
+				<section id="programming-introduction">
+					<h1>Programming Languages</h1>
+					<p></p>
+				</section>
+				<section id="programming-list">
+					<section id="python">
+						<p></p>
+					</section>
+
+					<section id="java">
+						<p></p>
+					</section>
+				</section>
+			</div>
+			<nav class="section-nav">
+				<ol>
+					<li>
+						<a href="#top-of-the-page"><h1>Background</h1></a>
+						<ul>
+							<li><a href="#introduction">Introduction</a></li>
+							<li>
+								<a href="#early-life">Early Life</a>
+							</li>
+							<li><a href="#education">Education</a></li>
+							<li>
+								<a href="#extra-curriculars"
+									>Projects & Volunteering</a
+								>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#programming-introduction"
+							><h1>Programming Languages</h1></a
+						>
+						<ul>
+							<li><a href="#python">Python</a></li>
+							<li><a href="#java">Java</a></li>
+						</ul>
+					</li>
+				</ol>
+			</nav>
+		</main>
+	</body>
+</html>
